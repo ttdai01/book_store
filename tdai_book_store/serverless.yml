@@ -1,0 +1,50 @@
+org: tdaiforwork
+app: tdai_book_store
+service: tdai-book-store
+
+frameworkVersion: '2'
+
+plugins:
+  - serverless-offline
+
+
+package:
+  excludeDevDependencies: true
+  exclude:
+    - .github/**
+    - .byc_output/**
+    - .vsscode/**
+    - charts/**
+    - devops/**
+    - patches/**
+    - src/**
+    - tests/**
+    - tracker/**
+    - .cfignore
+    - .editorconfig
+    - .env
+    - .env1
+    - .gitignore
+    - debug.log
+    - jest.config.js
+    - README.md
+    - test.env
+    - tsconfig.json
+    - tslint.json
+    - tsoa.json
+
+provider:
+  name: aws
+  runtime: nodejs12.x
+  lambdaHashingVersion: '20201221'
+
+functions:
+  api:
+    handler: dist/handler.handler
+    events:
+      - http:
+          path: /
+          method: ANY
+      - http:
+          path: /{proxy+}
+          method: ANY

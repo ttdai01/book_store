@@ -1,0 +1,28 @@
+{
+  "name": "aws-node-express-api",
+  "version": "1.0.0",
+  "description": "",
+  "dependencies": {
+    "amazon-cognito-identity-js": "^4.6.0",
+    "aws-sdk": "^2.897.0",
+    "axios": "^0.21.1",
+    "compression": "^1.7.4",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.7",
+    "serverless-http": "^2.7.0",
+    "typescipt": "^1.0.0",
+    "winston": "^3.3.3"
+  },
+  "scripts": {
+    "build": "tsc",
+    "run-offline": "concurrently \"tsc-watch\" \"sls offline -s dev\""
+  },
+  "devDependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/body-parser": "^1.19.0",
+    "@types/compression": "^1.7.0",
+    "@types/express": "^4.17.11",
+    "concurrently": "^6.0.2",
+    "serverless-offline": "^7.0.0"
+  }
+}
