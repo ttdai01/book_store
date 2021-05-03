@@ -18,18 +18,22 @@ var __importStar = (this && this.__importStar) || function (mod) {
     __setModuleDefault(result, mod);
     return result;
 };
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
 Object.defineProperty(exports, "__esModule", { value: true });
 const express_1 = require("express");
 const HomeController = __importStar(require("./controllers/home"));
 const BookController = __importStar(require("./domain/book-store/controllers"));
 const DumbController = __importStar(require("./domain/dumb/controllers"));
 const AuthController = __importStar(require("./domain/security/controllers"));
-// import AuthMiddleware from './middleware/auth-middleware';
+const auth_middleware_1 = __importDefault(require("./domain/security/auth-middleware"));
 const router = express_1.Router();
 const authorizeRouter = express_1.Router();
-// authorizeRouter.use(AuthMiddleware.validateToken);
+authorizeRouter.use(auth_middleware_1.default.validateToken);
 router.post('/auth/login', AuthController.login);
-router.get('/home', HomeController.greetings);
+router.post('/auth/register', AuthController.register);
+authorizeRouter.get('/', HomeController.greetings);
 router.post('/books', BookController.insert);
 router.get('/env', DumbController.getEnv);
 authorizeRouter.get('/home-with-lock', HomeController.greetings);

@@ -37,6 +37,12 @@ provider:
   name: aws
   runtime: nodejs12.x
   lambdaHashingVersion: '20201221'
+  environment:
+    APP: book-store
+    STAGE: dev
+    MODE: SLS-AWS
+    NODE_ENV: development
+    PORT: 8082
 
 functions:
   api:

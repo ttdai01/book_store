@@ -20,6 +20,7 @@ class AuthService {
         this.config.update({
             region: secret_utils_1.region
         });
+        this.cognitoIdentityServiceProvider = new aws_sdk_1.CognitoIdentityServiceProvider();
     }
     login(userName, password) {
         return cognito_services_1.CognitoService.setup()
@@ -53,6 +54,62 @@ class AuthService {
                         }
                         return reject(err);
                     }
+                });
+            });
+        });
+    }
+    register(user) {
+        return cognito_services_1.CognitoService.setup()
+            .then(poolData => {
+            const userPool = new amazon_cognito_identity_js_1.CognitoUserPool(poolData);
+            // find cognito user by email
+            return this.cognitoIdentityServiceProvider.listUsers({
+                UserPoolId: poolData.UserPoolId,
+                Filter: `email = "${user.username}"`
+            }).promise()
+                .then(users => {
+                // Check user is invited
+                if (users && users.Users && users.Users.length && users.Users[0].UserStatus === 'FORCE_CHANGE_PASSWORD') {
+                    // If user didn't click to link in email then return error
+                    if (!user.memberId) {
+                        throw new Error('There has been an account using this email. Please login to your email for more information.');
+                    }
+                    // Create new password
+                    return this.cognitoIdentityServiceProvider.adminSetUserPassword({
+                        Username: users.Users[0].Username,
+                        UserPoolId: poolData.UserPoolId,
+                        Permanent: true,
+                        Password: user.password
+                    }).promise()
+                        .then(() => this.cognitoIdentityServiceProvider.adminUpdateUserAttributes({
+                        Username: users.Users[0].Username,
+                        UserPoolId: poolData.UserPoolId,
+                        UserAttributes: [
+                            {
+                                Name: 'name',
+                                Value: user.fullName
+                            }
+                        ]
+                    }).promise())
+                        //  change status for invited member
+                        .then(() => ({ message: 'Successful registration, a verification link has been sent to your email' }));
+                }
+                return new Promise((resolve, reject) => {
+                    const attributeList = [];
+                    attributeList.push(new amazon_cognito_identity_js_1.CognitoUserAttribute({ Name: 'email', Value: user.userName }));
+                    attributeList.push(new amazon_cognito_identity_js_1.CognitoUserAttribute({ Name: 'nickname', Value: user.nickname }));
+                    attributeList.push(new amazon_cognito_identity_js_1.CognitoUserAttribute({ Name: 'picture', Value: user.picture }));
+                    attributeList.push(new amazon_cognito_identity_js_1.CognitoUserAttribute({ Name: 'phone_number', Value: user.phone_number }));
+                    attributeList.push(new amazon_cognito_identity_js_1.CognitoUserAttribute({ Name: 'address', Value: user.address }));
+                    attributeList.push(new amazon_cognito_identity_js_1.CognitoUserAttribute({ Name: 'default_language', Value: user.default_language }));
+                    userPool.signUp(user.userName, user.password, attributeList, null, (err, result) => {
+                        if (err) {
+                            reject(err);
+                        }
+                        else {
+                            resolve({ message: 'Successful registration, a verification link has been sent to your email' });
+                        }
+                    });
                 });
             });
         });

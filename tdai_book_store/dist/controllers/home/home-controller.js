@@ -12,8 +12,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.greetings = void 0;
 const greetings = (req, res, next) => __awaiter(void 0, void 0, void 0, function* () {
     try {
-        console.log('hello');
-        res.send(`Welcome back, ${req.query['name']}`);
+        res.send(`Welcome back, ${req.query['userInfo.userName']}`);
     }
     catch (err) {
         next(err);

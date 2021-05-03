@@ -89,3 +89,140 @@
 {"level":"info","message":"Connecting to MongoDB ","timestamp":"2021-04-30T19:22:27.501Z"}
 {"message":"--------------------request handling--------------------","level":"info","timestamp":"2021-04-30T19:23:37.929Z"}
 {"level":"info","message":"Connecting to MongoDB ","timestamp":"2021-04-30T19:23:39.028Z"}
+{"message":"--------------------request handling--------------------","level":"info","timestamp":"2021-05-03T10:08:51.360Z"}
+{"level":"info","message":"Connecting to MongoDB ","timestamp":"2021-05-03T10:08:52.553Z"}
+{"message":"--------------Register new user--------------","level":"info","timestamp":"2021-05-03T10:08:52.609Z"}
+{"message":"--------------------request handling--------------------","level":"info","timestamp":"2021-05-03T10:11:39.912Z"}
+{"level":"info","message":"Connecting to MongoDB ","timestamp":"2021-05-03T10:11:41.038Z"}
+{"message":"--------------Register new user--------------","level":"info","timestamp":"2021-05-03T10:11:41.059Z"}
+{"message":"--------------------request handling--------------------","level":"info","timestamp":"2021-05-03T10:44:20.623Z"}
+{"level":"info","message":"Connecting to MongoDB ","timestamp":"2021-05-03T10:44:21.874Z"}
+{"message":"--------------Register new user--------------","level":"info","timestamp":"2021-05-03T10:44:21.885Z"}
+{"message":"--------------------request handling--------------------","level":"info","timestamp":"2021-05-03T10:45:54.493Z"}
+{"level":"info","message":"Connecting to MongoDB ","timestamp":"2021-05-03T10:45:55.646Z"}
+{"message":"--------------Register new user--------------","level":"info","timestamp":"2021-05-03T10:45:55.661Z"}
+{"message":"--------------------request handling--------------------","level":"info","timestamp":"2021-05-03T10:47:03.986Z"}
+{"level":"info","message":"Connecting to MongoDB ","timestamp":"2021-05-03T10:47:05.212Z"}
+{"message":"--------------Register new user--------------","level":"info","timestamp":"2021-05-03T10:47:05.227Z"}
+{"message":"--------------------request handling--------------------","level":"info","timestamp":"2021-05-03T10:48:21.033Z"}
+{"level":"info","message":"Connecting to MongoDB ","timestamp":"2021-05-03T10:48:22.322Z"}
+{"message":"--------------Register new user--------------","level":"info","timestamp":"2021-05-03T10:48:22.333Z"}
+{"message":"--------------------request handling--------------------","level":"info","timestamp":"2021-05-03T10:50:42.836Z"}
+{"level":"info","message":"Connecting to MongoDB ","timestamp":"2021-05-03T10:50:44.017Z"}
+{"message":"--------------------request handling--------------------","level":"info","timestamp":"2021-05-03T10:50:56.815Z"}
+{"level":"info","message":"Connecting to MongoDB ","timestamp":"2021-05-03T10:50:57.937Z"}
+{"message":"--------------------request handling--------------------","level":"info","timestamp":"2021-05-03T10:52:21.161Z"}
+{"level":"info","message":"Connecting to MongoDB ","timestamp":"2021-05-03T10:52:22.275Z"}
+{"message":"--------------------request handling--------------------","level":"info","timestamp":"2021-05-03T10:53:30.791Z"}
+{"level":"info","message":"Connecting to MongoDB ","timestamp":"2021-05-03T10:53:31.944Z"}
+{"message":"--------------Register new user--------------","level":"info","timestamp":"2021-05-03T10:53:31.954Z"}
+{"message":"--------------------request handling--------------------","level":"info","timestamp":"2021-05-03T10:54:00.413Z"}
+{"level":"info","message":"Connecting to MongoDB ","timestamp":"2021-05-03T10:54:01.451Z"}
+{"message":"--------------Register new user--------------","level":"info","timestamp":"2021-05-03T10:54:01.462Z"}
+{"message":"--------------------request handling--------------------","level":"info","timestamp":"2021-05-03T10:54:48.105Z"}
+{"level":"info","message":"Connecting to MongoDB ","timestamp":"2021-05-03T10:54:49.196Z"}
+{"message":"--------------Register new user--------------","level":"info","timestamp":"2021-05-03T10:54:49.219Z"}
+{"message":"--------------------request handling--------------------","level":"info","timestamp":"2021-05-03T10:55:27.713Z"}
+{"level":"info","message":"Connecting to MongoDB ","timestamp":"2021-05-03T10:55:28.723Z"}
+{"message":"--------------Register new user--------------","level":"info","timestamp":"2021-05-03T10:55:28.735Z"}
+{"message":"--------------------request handling--------------------","level":"info","timestamp":"2021-05-03T11:00:35.581Z"}
+{"level":"info","message":"Connecting to MongoDB ","timestamp":"2021-05-03T11:00:36.803Z"}
+{"message":"--------------Register new user--------------","level":"info","timestamp":"2021-05-03T11:00:36.817Z"}
+{"message":"--------------------request handling--------------------","level":"info","timestamp":"2021-05-03T11:00:56.959Z"}
+{"level":"info","message":"Connecting to MongoDB ","timestamp":"2021-05-03T11:00:57.968Z"}
+{"message":"--------------Register new user--------------","level":"info","timestamp":"2021-05-03T11:00:57.979Z"}
+{"message":"--------------------request handling--------------------","level":"info","timestamp":"2021-05-03T11:28:31.624Z"}
+{"level":"info","message":"Connecting to MongoDB ","timestamp":"2021-05-03T11:28:32.776Z"}
+{"message":"--------------------request handling--------------------","level":"info","timestamp":"2021-05-03T11:28:42.819Z"}
+{"level":"info","message":"Connecting to MongoDB ","timestamp":"2021-05-03T11:28:43.836Z"}
+{"message":"--------------------request handling--------------------","level":"info","timestamp":"2021-05-03T12:57:50.772Z"}
+{"level":"info","message":"Connecting to MongoDB ","timestamp":"2021-05-03T12:57:51.930Z"}
+{"message":"--------------------request handling--------------------","level":"info","timestamp":"2021-05-03T12:58:05.158Z"}
+{"level":"info","message":"Connecting to MongoDB ","timestamp":"2021-05-03T12:58:06.204Z"}
+{"message":"--------------------request handling--------------------","level":"info","timestamp":"2021-05-03T13:34:46.453Z"}
+{"level":"info","message":"Connecting to MongoDB ","timestamp":"2021-05-03T13:34:48.438Z"}
+{"message":"--------------------request handling--------------------","level":"info","timestamp":"2021-05-03T13:35:09.788Z"}
+{"level":"info","message":"Connecting to MongoDB ","timestamp":"2021-05-03T13:35:11.788Z"}
+{"message":"--------------------request handling--------------------","level":"info","timestamp":"2021-05-03T13:36:03.190Z"}
+{"level":"info","message":"Connecting to MongoDB ","timestamp":"2021-05-03T13:36:04.345Z"}
+{"message":"--------------------request handling--------------------","level":"info","timestamp":"2021-05-03T13:37:48.222Z"}
+{"level":"info","message":"Connecting to MongoDB ","timestamp":"2021-05-03T13:37:49.481Z"}
+{"message":"----------------validateToken begin----------------","level":"info","timestamp":"2021-05-03T13:37:49.488Z"}
+{"message":"--------------------request handling--------------------","level":"info","timestamp":"2021-05-03T13:38:15.906Z"}
+{"level":"info","message":"Connecting to MongoDB ","timestamp":"2021-05-03T13:38:17.386Z"}
+{"message":"----------------validateToken begin----------------","level":"info","timestamp":"2021-05-03T13:38:17.392Z"}
+{"message":"--------------------request handling--------------------","level":"info","timestamp":"2021-05-03T13:39:02.682Z"}
+{"level":"info","message":"Connecting to MongoDB ","timestamp":"2021-05-03T13:39:03.975Z"}
+{"message":"----------------validateToken begin----------------","level":"info","timestamp":"2021-05-03T13:39:03.983Z"}
+{"message":"--------------------request handling--------------------","level":"info","timestamp":"2021-05-03T13:40:34.301Z"}
+{"level":"info","message":"Connecting to MongoDB ","timestamp":"2021-05-03T13:40:35.399Z"}
+{"message":"----------------validateToken begin----------------","level":"info","timestamp":"2021-05-03T13:40:35.405Z"}
+{"message":"--------------------request handling--------------------","level":"info","timestamp":"2021-05-03T13:41:26.853Z"}
+{"level":"info","message":"Connecting to MongoDB ","timestamp":"2021-05-03T13:41:27.930Z"}
+{"message":"----------------validateToken begin----------------","level":"info","timestamp":"2021-05-03T13:41:27.942Z"}
+{"message":"--------------------request handling--------------------","level":"info","timestamp":"2021-05-03T13:44:26.859Z"}
+{"level":"info","message":"Connecting to MongoDB ","timestamp":"2021-05-03T13:44:28.142Z"}
+{"message":"--------------------request handling--------------------","level":"info","timestamp":"2021-05-03T13:44:53.109Z"}
+{"level":"info","message":"Connecting to MongoDB ","timestamp":"2021-05-03T13:44:54.222Z"}
+{"message":"--------------------request handling--------------------","level":"info","timestamp":"2021-05-03T13:45:08.265Z"}
+{"level":"info","message":"Connecting to MongoDB ","timestamp":"2021-05-03T13:45:09.400Z"}
+{"message":"--------------------request handling--------------------","level":"info","timestamp":"2021-05-03T13:45:22.741Z"}
+{"level":"info","message":"Connecting to MongoDB ","timestamp":"2021-05-03T13:45:23.858Z"}
+{"message":"--------------------request handling--------------------","level":"info","timestamp":"2021-05-03T13:45:45.631Z"}
+{"level":"info","message":"Connecting to MongoDB ","timestamp":"2021-05-03T13:45:46.798Z"}
+{"message":"--------------------request handling--------------------","level":"info","timestamp":"2021-05-03T13:46:46.719Z"}
+{"level":"info","message":"Connecting to MongoDB ","timestamp":"2021-05-03T13:46:49.127Z"}
+{"message":"----------------validateToken begin----------------","level":"info","timestamp":"2021-05-03T13:46:49.148Z"}
+{"message":"--------------------request handling--------------------","level":"info","timestamp":"2021-05-03T13:48:57.822Z"}
+{"level":"info","message":"Connecting to MongoDB ","timestamp":"2021-05-03T13:48:59.386Z"}
+{"message":"----------------validateToken begin----------------","level":"info","timestamp":"2021-05-03T13:48:59.403Z"}
+{"message":"--------------------request handling--------------------","level":"info","timestamp":"2021-05-03T13:53:01.809Z"}
+{"level":"info","message":"Connecting to MongoDB ","timestamp":"2021-05-03T13:53:04.221Z"}
+{"message":"----------------validateToken begin----------------","level":"info","timestamp":"2021-05-03T13:53:04.235Z"}
+{"message":"--------------------request handling--------------------","level":"info","timestamp":"2021-05-03T13:54:14.889Z"}
+{"level":"info","message":"Connecting to MongoDB ","timestamp":"2021-05-03T13:54:16.354Z"}
+{"message":"----------------validateToken begin----------------","level":"info","timestamp":"2021-05-03T13:54:16.375Z"}
+{"message":"--------------------request handling--------------------","level":"info","timestamp":"2021-05-03T13:55:56.387Z"}
+{"level":"info","message":"Connecting to MongoDB ","timestamp":"2021-05-03T13:55:57.843Z"}
+{"message":"----------------validateToken begin----------------","level":"info","timestamp":"2021-05-03T13:55:57.865Z"}
+{"message":"--------------------request handling--------------------","level":"info","app":"book-store","stage":"dev","timestamp":"2021-05-03T13:58:11.914Z"}
+{"level":"info","message":"Connecting to MongoDB ","app":"book-store","stage":"dev","timestamp":"2021-05-03T13:58:13.367Z"}
+{"message":"----------------validateToken begin----------------","level":"info","app":"book-store","stage":"dev","timestamp":"2021-05-03T13:58:13.385Z"}
+{"message":"--------------------request handling--------------------","level":"info","app":"book-store","stage":"dev","timestamp":"2021-05-03T13:59:06.659Z"}
+{"level":"info","message":"Connecting to MongoDB ","app":"book-store","stage":"dev","timestamp":"2021-05-03T13:59:08.442Z"}
+{"message":"----------------validateToken begin----------------","level":"info","app":"book-store","stage":"dev","timestamp":"2021-05-03T13:59:08.458Z"}
+{"message":"--------------------request handling--------------------","level":"info","app":"book-store","stage":"dev","timestamp":"2021-05-03T14:01:10.694Z"}
+{"level":"info","message":"Connecting to MongoDB ","app":"book-store","stage":"dev","timestamp":"2021-05-03T14:01:13.524Z"}
+{"message":"----------------validateToken begin----------------","level":"info","app":"book-store","stage":"dev","timestamp":"2021-05-03T14:01:13.541Z"}
+{"message":"--------------------request handling--------------------","level":"info","app":"book-store","stage":"dev","timestamp":"2021-05-03T14:01:44.500Z"}
+{"level":"info","message":"Connecting to MongoDB ","app":"book-store","stage":"dev","timestamp":"2021-05-03T14:01:45.900Z"}
+{"message":"----------------validateToken begin----------------","level":"info","app":"book-store","stage":"dev","timestamp":"2021-05-03T14:01:45.914Z"}
+{"message":"--------------------request handling--------------------","level":"info","app":"book-store","stage":"dev","timestamp":"2021-05-03T14:12:20.927Z"}
+{"level":"info","message":"Connecting to MongoDB ","app":"book-store","stage":"dev","timestamp":"2021-05-03T14:12:23.447Z"}
+{"message":"--------------------request handling--------------------","level":"info","app":"book-store","stage":"dev","timestamp":"2021-05-03T14:12:37.555Z"}
+{"level":"info","message":"Connecting to MongoDB ","app":"book-store","stage":"dev","timestamp":"2021-05-03T14:12:40.678Z"}
+{"message":"----------------validateToken begin----------------","level":"info","app":"book-store","stage":"dev","timestamp":"2021-05-03T14:12:40.694Z"}
+{"message":"--------------------request handling--------------------","level":"info","app":"book-store","stage":"dev","timestamp":"2021-05-03T14:16:51.718Z"}
+{"level":"info","message":"Connecting to MongoDB ","app":"book-store","stage":"dev","timestamp":"2021-05-03T14:16:52.928Z"}
+{"message":"----------------validateToken begin----------------","level":"info","app":"book-store","stage":"dev","timestamp":"2021-05-03T14:16:52.943Z"}
+{"message":"--------------------request handling--------------------","level":"info","app":"book-store","stage":"dev","timestamp":"2021-05-03T14:18:17.442Z"}
+{"level":"info","message":"Connecting to MongoDB ","app":"book-store","stage":"dev","timestamp":"2021-05-03T14:18:19.546Z"}
+{"message":"----------------validateToken begin----------------","level":"info","app":"book-store","stage":"dev","timestamp":"2021-05-03T14:18:19.564Z"}
+{"message":"--------------------request handling--------------------","level":"info","app":"book-store","stage":"dev","timestamp":"2021-05-03T14:19:41.488Z"}
+{"level":"info","message":"Connecting to MongoDB ","app":"book-store","stage":"dev","timestamp":"2021-05-03T14:19:42.787Z"}
+{"message":"----------------validateToken begin----------------","level":"info","app":"book-store","stage":"dev","timestamp":"2021-05-03T14:19:42.798Z"}
+{"message":"--------------------request handling--------------------","level":"info","app":"book-store","stage":"dev","timestamp":"2021-05-03T14:19:55.947Z"}
+{"level":"info","message":"Connecting to MongoDB ","app":"book-store","stage":"dev","timestamp":"2021-05-03T14:19:57.091Z"}
+{"message":"----------------validateToken begin----------------","level":"info","app":"book-store","stage":"dev","timestamp":"2021-05-03T14:19:57.104Z"}
+{"message":"--------------------request handling--------------------","level":"info","app":"book-store","stage":"dev","timestamp":"2021-05-03T14:20:23.070Z"}
+{"level":"info","message":"Connecting to MongoDB ","app":"book-store","stage":"dev","timestamp":"2021-05-03T14:20:24.179Z"}
+{"message":"----------------validateToken begin----------------","level":"info","app":"book-store","stage":"dev","timestamp":"2021-05-03T14:20:24.199Z"}
+{"message":"--------------------request handling--------------------","level":"info","app":"book-store","stage":"dev","timestamp":"2021-05-03T14:21:22.038Z"}
+{"level":"info","message":"Connecting to MongoDB ","app":"book-store","stage":"dev","timestamp":"2021-05-03T14:21:24.079Z"}
+{"message":"----------------validateToken begin----------------","level":"info","app":"book-store","stage":"dev","timestamp":"2021-05-03T14:21:24.097Z"}
+{"message":"--------------------request handling--------------------","level":"info","app":"book-store","stage":"dev","timestamp":"2021-05-03T14:22:39.672Z"}
+{"level":"info","message":"Connecting to MongoDB ","app":"book-store","stage":"dev","timestamp":"2021-05-03T14:22:40.917Z"}
+{"message":"----------------validateToken begin----------------","level":"info","app":"book-store","stage":"dev","timestamp":"2021-05-03T14:22:40.940Z"}
+{"message":"--------------------request handling--------------------","level":"info","app":"book-store","stage":"dev","timestamp":"2021-05-03T14:23:34.814Z"}
+{"level":"info","message":"Connecting to MongoDB ","app":"book-store","stage":"dev","timestamp":"2021-05-03T14:23:36.707Z"}
+{"message":"----------------validateToken begin----------------","level":"info","app":"book-store","stage":"dev","timestamp":"2021-05-03T14:23:36.726Z"}
